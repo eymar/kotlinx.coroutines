@@ -8,7 +8,7 @@
 [![Slack channel](https://img.shields.io/badge/chat-slack-green.svg?logo=slack)](https://kotlinlang.slack.com/messages/coroutines/)
 
 Library support for Kotlin coroutines with [multiplatform](#multiplatform) support.
-This is a companion version for the Kotlin `1.6.0` release.
+This is a companion version for the Kotlin `1.7.0` release.
 
 ```kotlin
 suspend fun main() = coroutineScope {
@@ -92,7 +92,7 @@ And make sure that you use the latest Kotlin version:
 
 ```xml
 <properties>
-    <kotlin.version>1.6.20</kotlin.version>
+    <kotlin.version>1.7.0</kotlin.version>
 </properties>
 ```
 
@@ -111,10 +111,10 @@ And make sure that you use the latest Kotlin version:
 ```kotlin
 plugins {
     // For build.gradle.kts (Kotlin DSL)
-    kotlin("jvm") version "1.6.20"
+    kotlin("jvm") version "1.7.0"
     
     // For build.gradle (Groovy DSL)
-    id "org.jetbrains.kotlin.jvm" version "1.6.20"
+    id "org.jetbrains.kotlin.jvm" version "1.7.0"
 }
 ```
 
@@ -180,7 +180,7 @@ Platform-specific dependencies are recommended to be used only for non-multiplat
 
 Kotlin/JS version of `kotlinx.coroutines` is published as 
 [`kotlinx-coroutines-core-js`](https://search.maven.org/artifact/org.jetbrains.kotlinx/kotlinx-coroutines-core-js/1.6.2/jar)
-(follow the link to get the dependency declaration snippet) and as [`kotlinx-coroutines-core`](https://www.npmjs.com/package/kotlinx-coroutines-core) NPM package. 
+(follow the link to get the dependency declaration snippet).
 
 #### Native
 
